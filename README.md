@@ -9,4 +9,4 @@ The ESP8266 microcontroller is programmed using the Arduino IDE. In order to con
 * Finally the battery voltage and current are requested. Again this is done by sending a request frame, in this case for group 1 data and 5 additional data requests. The battery voltage is sent in cV using 2 bytes and the current is sent in mV using 4 bytes. It should be noticed that the battery current is the only variable that can have either positive (charge) or negative (discharge) values. If both values are obtained they are sent to the database.
 The database used to store the values is a local InfluxDB [19] database. To access it the microcontroller is connected to a WiFi network using an ESP8266 WiFi library and the Influx packages are sent using a web representational state transfer (RESTful API) library. Overall this system is able to send a value of each of the variables every 10 seconds, which is considered satisfactory to perform the tests. 
 
-![alt text](https://github.com/[covrig]/[EV-V2X-Data-Reading-CANbus]/blob/[master]/diagram.png?raw=true)
+![Diagram](https://github.com/covrig/EV-V2X-Data-Reading-CANbus/blob/main/diagram.png?raw=true)
