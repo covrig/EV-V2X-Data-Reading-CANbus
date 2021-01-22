@@ -10,4 +10,4 @@ The ESP8266 microcontroller is programmed using the Arduino IDE. In order to con
 The database used to store the values is a local InfluxDB [19] database. To access it the microcontroller is connected to a WiFi network using an ESP8266 WiFi library and the Influx packages are sent using a web representational state transfer (RESTful API) library. Overall this system is able to send a value of each of the variables every 10 seconds, which is considered satisfactory to perform the tests. 
 
 ![Diagram](https://github.com/covrig/EV-V2X-Data-Reading-CANbus/blob/main/diagram.png?raw=true)
-![Diagram](https://github.com/covrig/EV-V2X-Data-Reading-CANbus/blob/main/diagram.png?raw=true)
+![Diagram](https://github.com/covrig/EV-V2X-Data-Reading-CANbus/blob/main/canbus.png?raw=true)
