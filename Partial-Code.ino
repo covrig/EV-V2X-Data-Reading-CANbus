@@ -858,4 +858,3 @@ bool readCellVoltages(){
   Serial.println("Cell voltages: All additional values were received");
   return true;
 }
-
